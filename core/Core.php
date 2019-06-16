@@ -19,9 +19,12 @@ class Core {
             }
 
         } else {
-            $this->currentController = 'homeController';
-            $this->currentAction = 'index';
+            $currentController = 'homeController';
+            $currentAction = 'index';
         }
+        require_once 'core/Controller.php';
         
+        $c = new $currentController();
+        $c->$currentAction();
     }
 }

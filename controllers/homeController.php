@@ -2,6 +2,6 @@
 
 class homeController extends Controller{
     public function index(){
-        echo "Hello World!";
+        echo "<h1>Hello World!</h1>";
     }
 }
