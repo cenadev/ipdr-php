@@ -2,6 +2,9 @@
 
 class homeController extends Controller{
     public function index(){
-        echo "<h1>Hello World!</h1>";
+
+        $membros = new Membros();
+        $membros->setName('Cleison');
+        echo "Meu nome é: ".$membros->getName();
     }
 }
