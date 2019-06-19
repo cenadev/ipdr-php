@@ -13,6 +13,6 @@ class homeController extends Controller{
         );
 
         //metodo que carrega a view
-        $this->loadView('home', $data);
+        $this->loadTemplate('home', $data);
     }
 }
