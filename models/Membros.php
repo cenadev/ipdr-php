@@ -1,12 +1,7 @@
 <?php 
-class Membros {
-    private $name;
+class Membros extends Model {
 
-    public function setName($n) {
-        $this->name = $n;
-    }
-    
-    public function getName(){
-        return $this->name;
+    public function getMembers(){
+        
     }
 }
