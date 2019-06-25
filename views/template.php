@@ -28,20 +28,54 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="#">
                         <span data-feather="home"></span>
-                        Dashboard <span class="sr-only">(current)</span>
+                        Home <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
                         <span data-feather="file"></span>
-                        Orders
+                        Membros
                     </a>
+                    <ul>
+                        <li>
+                        <a class="nav-link" href="#">
+                            Cadastrar
+                        </a>
+                        </li>
+                        <li>
+                        <a class="nav-link" href="#">
+                            Alterar
+                        </a>
+                        </li>
+                        <li>
+                        <a class="nav-link" href="#">
+                            Excluir
+                        </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
                         <span data-feather="shopping-cart"></span>
-                        Products
+                        Usuários
                     </a>
+                    <ul>
+                        <li>
+                        <a class="nav-link" href="#">
+                            Cadastrar
+                        </a>
+                        </li>
+                        <li>
+                        <a class="nav-link" href="#">
+                            Alterar
+                        </a>
+                        </li>
+                        <li>
+                        <a class="nav-link" href="#">
+                            Excluir
+                        </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
@@ -58,43 +92,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">
                         <span data-feather="layers"></span>
-                        Integrations
+                        Sobre
                     </a>
                 </li>
             </ul>
 
-            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                <span>Saved reports</span>
-                <a class="d-flex align-items-center text-muted" href="#">
-                    <span data-feather="plus-circle"></span>
-                </a>
-            </h6>
-            <ul class="nav flex-column mb-2">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="file-text"></span>
-                        Current month
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="file-text"></span>
-                        Last quarter
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="file-text"></span>
-                        Social engagement
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span data-feather="file-text"></span>
-                        Year-end sale
-                    </a>
-                </li>
-            </ul>
+
         </div>
     </nav>
 
@@ -111,9 +114,9 @@
         </div>
     </div>
 
-        <script src="./assets/js/vendor/jquery-slim.min.js"></script>
-        <script src="./assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="./assets/js/dashboard.js"></script>
+    <script src="./assets/js/vendor/jquery-slim.min.js"></script>
+    <script src="./assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/dashboard.js"></script>
 </body>
 
 </html>
