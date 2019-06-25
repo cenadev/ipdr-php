@@ -2,6 +2,6 @@
 class aboutController extends Controller {
     public function index(){
         $data = [];
-        $this->loadView('about', $data);
+        $this->loadTemplate('about', $data);
     }
 }
