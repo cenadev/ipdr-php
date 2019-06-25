@@ -2,7 +2,7 @@
 require 'environment.php';
 
 global $config;
-$config = [];
+$config = array();
 
 if (ENVIRONMENT == "dev") {
     $config['dbname'] = 'ipdr';
