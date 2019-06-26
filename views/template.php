@@ -96,7 +96,11 @@
 
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 
-                <?php $this->loadViewInTemplate($viewName, $viewData); ?>
+                
+                <?php 
+                //MÉTODO DE CARREGAMENTO DA PÁGINA ATUAL
+                $this->loadViewInTemplate($viewName, $viewData); 
+                ?>
 
 
             </main>
