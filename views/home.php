@@ -10,4 +10,14 @@
     <h5 class="card-title">40 membros</h5>
   </div>
 </div>
-   
+
+<div class=" px-5">
+<h4 class="text-center">Atalhos Rápidos</h4>
+
+<div class="atalhos d-flex justify-content-around flex-wrap p-5">
+
+<button type="button" class="btn btn-outline-success btn-lg">Cadastrar Membro</button>
+<button type="button" class="btn btn-outline-primary btn-lg">Cadastrar Usuários</button>
+<button type="button" class="btn btn-outline-success btn-lg">Cadastrar Membro</button>
+</div>
+</div>
