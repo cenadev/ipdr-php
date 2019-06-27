@@ -1,8 +1,8 @@
 
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+      <!-- <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Dashboard</h1>
         
-      </div>
+      </div> -->
 
 <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
   <div class="card-header">Número de Membros</div>
@@ -10,7 +10,7 @@
     <h5 class="card-title">40 membros</h5>
   </div>
 </div>
-
+<!--
 <div class=" px-5">
 <h4 class="text-center">Atalhos Rápidos</h4>
 
@@ -21,3 +21,4 @@
 <button type="button" class="btn btn-outline-success btn-lg">Cadastrar Membro</button>
 </div>
 </div>
+-->
