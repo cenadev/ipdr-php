@@ -26,29 +26,29 @@
         <div class="sidebar-sticky">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">
+                    <a class="nav-link active" href="./home">
                         <span data-feather="home"></span>
                         Home <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="./membros">
                         <span data-feather="file"></span>
                         Membros
                     </a>
                     <ul>
                         <li>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="./membros/cadastrar">
                             Cadastrar
                         </a>
                         </li>
                         <li>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="./membros/alterar">
                             Alterar
                         </a>
                         </li>
                         <li>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="./membros/excluir">
                             Excluir
                         </a>
                         </li>
@@ -96,7 +96,10 @@
 
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 
-                
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2"><?php echo(ucfirst($viewName)); ?></h1>
+        
+      </div>
                 <?php 
                 //MÉTODO DE CARREGAMENTO DA PÁGINA ATUAL
                 $this->loadViewInTemplate($viewName, $viewData); 
