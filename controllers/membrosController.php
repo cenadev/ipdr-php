@@ -2,7 +2,9 @@
 class membrosController extends Controller {
     public function index()
     {
-        echo 'Esta é a lista de membros';
+        $data = array();
+
+        $this->loadTemplate('membros', $data);
     }
 
     public function cadastrar(){
