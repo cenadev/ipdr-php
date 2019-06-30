@@ -4,10 +4,12 @@ class membrosController extends Controller {
     {
         $data = array();
 
-        $this->loadTemplate('membros', $data);
+        $this->loadTemplate('membros', 'index', $data);
     }
 
     public function cadastrar(){
-        echo 'Essa é a página de cadastro';
+
+        $data = array();
+        $this->loadTemplate('membros', 'cadastrar',$data);
     }
 }
