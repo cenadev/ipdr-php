@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SISTEMA DE CADASTRO IPDR</title>
 
-    <link rel="stylesheet" href="<?php echo(BASE_URL); ?>/assets/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo(BASE_URL); ?>/assets/css/dashboard.css">
+    <link rel="stylesheet" href="<?php echo (BASE_URL); ?>/assets/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo (BASE_URL); ?>/assets/css/dashboard.css">
 </head>
 
 <body>
@@ -26,29 +26,29 @@
         <div class="sidebar-sticky">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="<?php echo(BASE_URL); ?>/home">
+                    <a class="nav-link active" href="<?php echo (BASE_URL); ?>/home">
                         <span data-feather="home"></span>
                         Home <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo(BASE_URL); ?>/membros">
+                    <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros">
                         <span data-feather="file"></span>
                         Membros
                     </a>
                     <ul>
                         <li>
-                        <a class="nav-link" href="<?php echo(BASE_URL); ?>/membros/cadastrar">
+                        <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros/cadastrar">
                             Cadastrar
                         </a>
                         </li>
                         <li>
-                        <a class="nav-link" href="<?php echo(BASE_URL); ?>/membros/alterar">
+                        <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros/alterar">
                             Alterar
                         </a>
                         </li>
                         <li>
-                        <a class="nav-link" href="<?php echo(BASE_URL); ?>/membros/excluir">
+                        <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros/excluir">
                             Excluir
                         </a>
                         </li>
@@ -77,7 +77,7 @@
                         </li>
                     </ul>
                 </li>
-                
+
                 <li class="nav-item">
                     <a class="nav-link" href="./about">
                         <span data-feather="layers"></span>
@@ -97,22 +97,22 @@
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2"><?php echo(ucfirst($viewName)); ?></h1>
-        
+        <h1 class="h2"><?php echo (ucfirst($viewName)); ?></h1>
+
       </div>
-                <?php 
-                //MÉTODO DE CARREGAMENTO DA PÁGINA ATUAL
-                $this->loadViewInTemplate($viewName, $viewData); 
-                ?>
+                <?php
+//MÉTODO DE CARREGAMENTO DA PÁGINA ATUAL
+$this->loadViewInTemplate($viewName, $viewData);
+?>
 
 
             </main>
         </div>
     </div>
 
-    <script src="<?php echo(BASE_URL); ?>/assets/js/vendor/jquery-slim.min.js"></script>
-    <script src="<?php echo(BASE_URL); ?>/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?php echo(BASE_URL); ?>/assets/js/dashboard.js"></script>
+    <script src="<?php echo (BASE_URL); ?>/assets/js/vendor/jquery-slim.min.js"></script>
+    <script src="<?php echo (BASE_URL); ?>/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo (BASE_URL); ?>/assets/js/dashboard.js"></script>
 </body>
 
 </html>
