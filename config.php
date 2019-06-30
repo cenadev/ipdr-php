@@ -1,6 +1,8 @@
 <?php
 require 'environment.php';
 
+define("BASE_URL", "http://localhost/ipdr-php");
+
 global $config;
 $config = array();
 
