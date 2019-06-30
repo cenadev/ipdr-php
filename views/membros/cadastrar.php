@@ -1,1 +1,1 @@
-<h1>Está é o cadastrar</h1>
+<h4>Cadastrar Membro</h4>

@@ -1,5 +1,6 @@
 <?php
-class membrosController extends Controller {
+class membrosController extends Controller
+{
     public function index()
     {
         $data = array();
@@ -7,9 +8,22 @@ class membrosController extends Controller {
         $this->loadTemplate('membros', 'index', $data);
     }
 
-    public function cadastrar(){
+    public function cadastrar()
+    {
 
         $data = array();
-        $this->loadTemplate('membros', 'cadastrar',$data);
+        $this->loadTemplate('membros', 'cadastrar', $data);
+    }
+    public function alterar()
+    {
+
+        $data = array();
+        $this->loadTemplate('membros', 'alterar', $data);
+    }
+    public function excluir()
+    {
+
+        $data = array();
+        $this->loadTemplate('membros', 'excluir', $data);
     }
 }
