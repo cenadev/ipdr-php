@@ -174,32 +174,32 @@
                                 <label for="inputUF">UF</label>
                                 <select name="inputUF" class="form-control" id="inputUF">
                                     <option value="select">selecione</option>
-                                    <option value="">AC</option>
-                                    <option value="">AL</option>
-                                    <option value="">AP</option>
-                                    <option value="">AM</option>
-                                    <option value="">BA</option>
-                                    <option value="">CE</option>
-                                    <option value="">DF</option>
-                                    <option value="">ES</option>
-                                    <option value="">GO</option>
-                                    <option value="">MA</option>
-                                    <option value="">MT</option>
-                                    <option value="">MS</option>
-                                    <option value="">MG</option>
-                                    <option value="">PA</option>
-                                    <option value="">PB</option>
-                                    <option value="">PR</option>
-                                    <option value="">PE</option>
-                                    <option value="">PI</option>
-                                    <option value="">RJ</option>
-                                    <option value="">RN</option>
-                                    <option value="">RS</option>
-                                    <option value="">RO</option>
-                                    <option value="">SC</option>
-                                    <option value="">SP</option>
-                                    <option value="">SE</option>
-                                    <option value="">TO</option>
+                                    <option value="AC">AC</option>
+                                    <option value="AL">AL</option>
+                                    <option value="AP">AP</option>
+                                    <option value="AM">AM</option>
+                                    <option value="BA">BA</option>
+                                    <option value="CE">CE</option>
+                                    <option value="DF">DF</option>
+                                    <option value="ES">ES</option>
+                                    <option value="GO">GO</option>
+                                    <option value="MA">MA</option>
+                                    <option value="MT">MT</option>
+                                    <option value="MS">MS</option>
+                                    <option value="MG">MG</option>
+                                    <option value="PA">PA</option>
+                                    <option value="PB">PB</option>
+                                    <option value="PR">PR</option>
+                                    <option value="PE">PE</option>
+                                    <option value="PI">PI</option>
+                                    <option value="RJ">RJ</option>
+                                    <option value="RN">RN</option>
+                                    <option value="RS">RS</option>
+                                    <option value="RO">RO</option>
+                                    <option value="SC">SC</option>
+                                    <option value="SP">SP</option>
+                                    <option value="SE">SE</option>
+                                    <option value="TO">TO</option>
                                 </select>
                             </div>
 
@@ -212,9 +212,125 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary">Salvar</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#cadModal3">Salvar</button>
             </div>
         </div>
     </div>
 </div>
 <!-- fim do modal 2 -->
+
+<!-- Modal 03 -->
+<div class="modal fade" id="cadModal3" tabindex="-1" role="dialog" aria-labelledby="cadModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalScrollableTitle">Cadastrar Membro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5 class="text-center pb-3">Ficha 3</h5>
+
+                <form>
+
+                    <div class="form-row">
+                        
+                    <fieldset>
+                        <legend>Estado Cívil</legend>
+                        <div class="form-group col-md-12">
+                            <div class="form-inline">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios1" value="solteiro" checked>
+                                <label class="form-check-label" for="maritalStatusRadios1">
+                                    Solteiro
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios2" value="casado">
+                                <label class="form-check-label" for="maritalStatusRadios2">
+                                    Casado
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios3" value="separado">
+                                <label class="form-check-label" for="maritalStatusRadios3">
+                                    Separado
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios4" value="desquitado">
+                                <label class="form-check-label" for="maritalStatusRadios4">
+                                    Desquitado
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios5" value="divorciado">
+                                <label class="form-check-label" for="maritalStatusRadios5">
+                                    Divorciado
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios6" value="viúvo">
+                                <label class="form-check-label" for="maritalStatusRadios6">
+                                    Viúvo
+                                </label>
+                            </div>
+                            </div>
+                            </fieldset>
+                        </div>
+
+                
+
+                    <div class="form-row">
+
+                        <div class="form-group col-md-4">
+                            <label for="inputDateOfBirth">Data de Nascimento</label>
+                            <input type="date" class="form-control" id="inputDateOfBirth">
+                        </div>
+
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-md-4">
+                            <label for="inputNationality">Nacionalidade</label>
+                            <input type="text" class="form-control" id="inputNationality">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputNatality">Natalidade</label>
+                            <input type="text" class="form-control" id="inputNatality">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputRG">Identidade</label>
+                            <input type="text" class="form-control" id="inputRG">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputShippingAgent">Orgão Expedidor</label>
+                            <input type="text" class="form-control" id="inputShippingAgent">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputCPF">CPF</label>
+                            <input type="text" class="form-control" id="inputCPF">
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#cadModal2">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- fim do modal 3 -->
