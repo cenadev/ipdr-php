@@ -112,7 +112,8 @@ $this->loadViewInTemplate($viewName, $viewData);
 
     <script src="<?php echo (BASE_URL); ?>/assets/js/vendor/jquery-slim.min.js"></script>
     <script src="<?php echo (BASE_URL); ?>/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?php echo (BASE_URL); ?>/assets/js/dashboard.js"></script>
+    <!--<script src="<?php //echo (BASE_URL); ?>/assets/js/dashboard.js"></script>-->
+    <script src="<?php echo (BASE_URL); ?>/assets/js/index.js"></script>
 </body>
 
 </html>

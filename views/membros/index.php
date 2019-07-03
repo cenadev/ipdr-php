@@ -24,7 +24,7 @@
             <div class="modal-body">
                 <h5 class="text-center pb-3">Ficha 1</h5>
 
-                <form>
+                <form id="#cad1Form">
 
                     <div class="form-row">
 
@@ -37,14 +37,14 @@
                         <div class="form-group col-md-2">
                             <label for="genderRadios">Gênero</label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios1" value="option1" checked>
-                                <label class="form-check-label" for="genderRadios1">
+                                <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios1" value="f" checked>
+                                <label class="form-check-label px-2" for="genderRadios1">
                                     F
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios2" value="option2">
-                                <label class="form-check-label" for="genderRadios2">
+                                <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios2" value="m">
+                                <label class="form-check-label px-2" for="genderRadios2">
                                     M
                                 </label>
                             </div>
@@ -89,12 +89,16 @@
                             <input type="text" class="form-control" id="inputCPF">
                         </div>
                     </div>
-                </form>
+                
 
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#cadModal2">Salvar</button>
+                <button type="submit" class="btn btn-primary" id="#cadModal1Submit" data-toggle="modal" data-dismiss="" data-target="">
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display:none;"></span>
+                    Salvar
+                </button>
+                </form>
             </div>
         </div>
     </div>
@@ -235,52 +239,52 @@
                 <form>
 
                     <div class="form-row">
-                        
-                    <fieldset>
-                        <legend>Estado Cívil</legend>
-                        <div class="form-group col-md-12">
-                            <div class="form-inline">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios1" value="solteiro" checked>
-                                <label class="form-check-label" for="maritalStatusRadios1">
-                                    Solteiro
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios2" value="casado">
-                                <label class="form-check-label" for="maritalStatusRadios2">
-                                    Casado
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios3" value="separado">
-                                <label class="form-check-label" for="maritalStatusRadios3">
-                                    Separado
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios4" value="desquitado">
-                                <label class="form-check-label" for="maritalStatusRadios4">
-                                    Desquitado
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios5" value="divorciado">
-                                <label class="form-check-label" for="maritalStatusRadios5">
-                                    Divorciado
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios6" value="viúvo">
-                                <label class="form-check-label" for="maritalStatusRadios6">
-                                    Viúvo
-                                </label>
-                            </div>
-                            </div>
-                            </fieldset>
-                        </div>
 
-                
+                        <fieldset>
+                            <legend>Estado Cívil</legend>
+                            <div class="form-group col-md-12">
+                                <div class="form-inline">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios1" value="solteiro" checked>
+                                        <label class="form-check-label" for="maritalStatusRadios1">
+                                            Solteiro
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios2" value="casado">
+                                        <label class="form-check-label" for="maritalStatusRadios2">
+                                            Casado
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios3" value="separado">
+                                        <label class="form-check-label" for="maritalStatusRadios3">
+                                            Separado
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios4" value="desquitado">
+                                        <label class="form-check-label" for="maritalStatusRadios4">
+                                            Desquitado
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios5" value="divorciado">
+                                        <label class="form-check-label" for="maritalStatusRadios5">
+                                            Divorciado
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="maritalStatusRadios" id="maritalStatusRadios6" value="viúvo">
+                                        <label class="form-check-label" for="maritalStatusRadios6">
+                                            Viúvo
+                                        </label>
+                                    </div>
+                                </div>
+                        </fieldset>
+                    </div>
+
+
 
                     <div class="form-row">
 
