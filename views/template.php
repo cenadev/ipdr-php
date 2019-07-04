@@ -38,19 +38,19 @@
                     </a>
                     <ul>
                         <li>
-                        <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros/cadastrar">
-                            Cadastrar
-                        </a>
+                            <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros/cadastrar">
+                                Cadastrar
+                            </a>
                         </li>
                         <li>
-                        <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros/alterar">
-                            Alterar
-                        </a>
+                            <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros/alterar">
+                                Alterar
+                            </a>
                         </li>
                         <li>
-                        <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros/excluir">
-                            Excluir
-                        </a>
+                            <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros/excluir">
+                                Excluir
+                            </a>
                         </li>
                     </ul>
                 </li>
@@ -61,19 +61,19 @@
                     </a>
                     <ul>
                         <li>
-                        <a class="nav-link" href="#">
-                            Cadastrar
-                        </a>
+                            <a class="nav-link" href="#">
+                                Cadastrar
+                            </a>
                         </li>
                         <li>
-                        <a class="nav-link" href="#">
-                            Alterar
-                        </a>
+                            <a class="nav-link" href="#">
+                                Alterar
+                            </a>
                         </li>
                         <li>
-                        <a class="nav-link" href="#">
-                            Excluir
-                        </a>
+                            <a class="nav-link" href="#">
+                                Excluir
+                            </a>
                         </li>
                     </ul>
                 </li>
@@ -96,23 +96,22 @@
 
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 
-            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2"><?php echo (ucfirst($viewName)); ?></h1>
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2"><?php echo (ucfirst($viewName)); ?></h1>
 
-      </div>
+                </div>
                 <?php
-//MÉTODO DE CARREGAMENTO DA PÁGINA ATUAL
-$this->loadViewInTemplate($viewName, $viewData);
-?>
+                //MÉTODO DE CARREGAMENTO DA PÁGINA ATUAL
+                $this->loadViewInTemplate($viewName, $viewData);
+                ?>
 
 
             </main>
         </div>
     </div>
-
-    <script src="<?php echo (BASE_URL); ?>/assets/js/vendor/jquery-slim.min.js"></script>
-    <script src="<?php echo (BASE_URL); ?>/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <!--<script src="<?php //echo (BASE_URL); ?>/assets/js/dashboard.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="<?php echo (BASE_URL); ?>/assets/js/index.js"></script>
 </body>
 
