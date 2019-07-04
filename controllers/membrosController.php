@@ -10,9 +10,10 @@ class membrosController extends Controller
 
     public function cadastrar()
     {
-
-        $data = array();
-        $this->loadTemplate('membros', 'cadastrar', $data);
+        if ($_POST['nome'] && $_POST['dataNasc'] && $_POST['nacionalidade'] && $_POST['natalidade'] && $_POST['email'] && $_POST['identidade'] && $_POST['orgaoEmissor'] && $_POST['inputCPF']) {
+            # code...
+            
+        }
     }
     public function alterar()
     {
