@@ -1,7 +1,7 @@
 <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#cadModal">
     Cadastrar
 </button>
-<button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#cadModal">
+<button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="cadModal">
     Alterar
 </button>
 <a href="<?php echo (BASE_URL); ?>/membros/alterar" class="btn btn-outline-danger">Excluir</a>
@@ -24,7 +24,7 @@
             <div class="modal-body">
                 <h5 class="text-center pb-3">Ficha 1</h5>
 
-                <form id="#cad1Form">
+                <form id="cad1Form">
 
                     <div class="form-row">
 
@@ -37,7 +37,7 @@
                         <div class="form-group col-md-2">
                             <label for="genderRadios">Gênero</label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios1" value="f" checked>
+                                <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios1" value="f">
                                 <label class="form-check-label px-2" for="genderRadios1">
                                     F
                                 </label>
@@ -89,15 +89,22 @@
                             <input type="text" class="form-control" id="inputCPF">
                         </div>
                     </div>
-                
+
 
             </div>
             <div class="modal-footer">
+                <div class="alert alert-dismissible fade show" id="alertModal1">
+                    
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="submit" class="btn btn-primary" id="#cadModal1Submit" data-toggle="modal" data-dismiss="" data-target="">
-                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display:none;"></span>
+                <button type="button" class="btn btn-primary" id="cadModal1Submit" data-toggle="modal" data-dismiss="" data-target="">
+
                     Salvar
                 </button>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" id="spinnerModal1"></span>
                 </form>
             </div>
         </div>
@@ -216,7 +223,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#cadModal3">Salvar</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="cadModal3">Salvar</button>
             </div>
         </div>
     </div>
@@ -332,7 +339,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#cadModal2">Salvar</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="cadModal2">Salvar</button>
             </div>
         </div>
     </div>
