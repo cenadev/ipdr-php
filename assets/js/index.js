@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var msgAlert = '';
 $('#spinnerModal1').hide();
 $('#cadModal1Submit').click(function (){
@@ -19,8 +20,9 @@ $('#cadModal1Submit').click(function (){
         },
         dataType: "html",
         success: function (response) {
-            msgAlert = 'Cadastro realizado com sucesso!'
-            $('#alertModal1').html(msgAlert), $('#alertModal1').addClass('alert-sucess'), $('#alertModal1').alert();
+            msgAlert = 'Cadastro realizado com sucesso!';
+            $('#alertModal1').html(msgAlert, response), $('#alertModal1').addClass('alert-sucess'), $('#alertModal1').alert();
         }
     });
+});
 });
