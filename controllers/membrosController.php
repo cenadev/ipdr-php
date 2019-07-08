@@ -10,11 +10,12 @@ class membrosController extends Controller
 
     public function cadastrar()
     {
-        if ($_POST['nome'] && $_POST['dataNasc'] && $_POST['nacionalidade'] && $_POST['natalidade'] && $_POST['email'] && $_POST['identidade'] && $_POST['orgaoEmissor'] && $_POST['inputCPF']) {
+        if (isset($_POST['nome'], $_POST['genero'], $_POST['dataNasc'], $_POST['nacionalidade'], $_POST['natalidade'], $_POST['email'], $_POST['identidade'], $_POST['orgaoEmissor'], $_POST['inputCPF'])) {
             # code...
             $data = array();
             $data = array(
                 'nome' => $_POST['nome'],
+                'genero' => $_POST['genero'],
                 'dataNasc' => $_POST['dataNasc'],
                 'nacionalidade' => $_POST['nacionalidade'],
                 'natalidade' => $_POST['natalidade'],
@@ -23,7 +24,7 @@ class membrosController extends Controller
                 'orgaoEmissor' => $_POST['orgaoEmissor'],
                 'inputCPF' => $_POST['inputCPF']
             );
-            return($data);
+            echo json_encode($data);
             http_response_code(200);
             
         } else {
