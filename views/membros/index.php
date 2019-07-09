@@ -100,7 +100,7 @@
                     </button>
                 </div>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="submit" class="btn btn-primary" id="cadModal1Submit" data-toggle="modal" data-dismiss="" data-target="">
+                <button type="submit" class="btn btn-primary" id="cadModal1Submit" data-toggle="modal" data-dismiss="" data-target="#cadModal2">
 
                     Salvar
                 </button>
@@ -223,7 +223,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="cadModal3">Salvar</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#cadModal3">Salvar</button>
             </div>
         </div>
     </div>
@@ -339,7 +339,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="cadModal2">Salvar</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="">Salvar</button>
             </div>
         </div>
     </div>
