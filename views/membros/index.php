@@ -100,7 +100,7 @@
                     </button>
                 </div>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="submit" class="btn btn-primary" id="cadModal1Submit" data-toggle="modal" data-dismiss="" data-target="#cadModal2">
+                <button type="submit" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#cadModal2" id="cadModal1Submit" >
 
                     Salvar
                 </button>
@@ -127,7 +127,7 @@
                 <h5 class="text-center pb-3">Ficha 2</h5>
 
                 <form>
-
+                <input type="hidden" name="cadModal2id" id="cadModal2id" value="">
                     <div class="form-row">
 
                         <div class="form-group col-md-4">
@@ -223,7 +223,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#cadModal3">Salvar</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="" data-target="#cadModal3" id="cadModal1Submit">Próximo</button>
             </div>
         </div>
     </div>
