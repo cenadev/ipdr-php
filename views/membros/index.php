@@ -125,7 +125,7 @@
             </div>
             <div class="modal-body">
                 <h5 class="text-center pb-3">Ficha 2</h5>
-
+                <p class="text-center lead" id="cadModal2Nome">Cleison dos Santos Silva</p>
                 <form>
 
                     <div class="form-row">
