@@ -100,7 +100,7 @@
                     </button>
                 </div>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="submit" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#cadModal2" id="cadModal1Submit" >
+                <button type="submit" class="btn btn-primary" data-toggle="modal" data-dismiss="" data-target="#cadModal2" id="cadModal1Submit" >
 
                     Salvar
                 </button>
