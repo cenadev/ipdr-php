@@ -24,6 +24,7 @@ class membrosController extends Controller
                 'orgaoEmissor' => $_POST['orgaoEmissor'],
                 'inputCPF' => $_POST['inputCPF']
             );
+            
             echo json_encode($data);
             http_response_code(200);
             
