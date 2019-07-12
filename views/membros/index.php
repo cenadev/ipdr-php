@@ -90,15 +90,120 @@
                         </div>
                     </div>
 
+                    <div class="form-group col-md-6">
+                            <label for="inputNameFather">Nome do Pai</label>
+                            <input type="text" class="form-control" id="inputNameFather" placeholder="Nome Completo">
+                        </div>
+
+                        <div class="form-group col-md-2">
+                            <label for="fatherAliveRadios">Vivo?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="fatherAliveRadios" id="fatherAliveRadios1" value="s">
+                                <label class="form-check-label px-2" for="fatherAliveRadios1">
+                                    Sim
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="fatherAliveRadios" id="fatherAliveRadios2" value="n">
+                                <label class="form-check-label px-2" for="fatherAliveRadios2">
+                                    Não
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group col-md-2">
+                            <label for="fatherEvangelicalRadios">Evangélico?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="fatherEvangelicalRadios" id="fatherEvangelicalRadios1" value="s">
+                                <label class="form-check-label px-2" for="fatherEvangelicalRadios1">
+                                    Sim
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="fatherEvangelicalRadios" id="fatherEvangelicalRadios2" value="n">
+                                <label class="form-check-label px-2" for="fatherEvangelicalRadios2">
+                                    Não
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-2">
+                            <label for="fatherIpdrRadios">Da IPDR?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="fatherIpdrRadios" id="fatherIpdrRadios1" value="s">
+                                <label class="form-check-label px-2" for="fatherIpdrRadios1">
+                                    Sim
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="fatherIpdrRadios" id="fatherIpdrRadios2" value="n">
+                                <label class="form-check-label px-2" for="fatherIpdrRadios2">
+                                    Não
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="inputNameMother">Nome do Pai</label>
+                            <input type="text" class="form-control" id="inputNameMother" placeholder="Nome Completo">
+                        </div>
+
+                        <div class="form-group col-md-2">
+                            <label for="motherAliveRadios">Vivo?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="motherAliveRadios" id="motherAliveRadios1" value="s">
+                                <label class="form-check-label px-2" for="motherAliveRadios1">
+                                    Sim
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="motherAliveRadios" id="motherAliveRadios2" value="n">
+                                <label class="form-check-label px-2" for="motherAliveRadios2">
+                                    Não
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group col-md-2">
+                            <label for="motherEvangelicalRadios">Evangélico?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="motherEvangelicalRadios" id="motherEvangelicalRadios1" value="s">
+                                <label class="form-check-label px-2" for="motherEvangelicalRadios1">
+                                    Sim
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="motherEvangelicalRadios" id="motherEvangelicalRadios2" value="n">
+                                <label class="form-check-label px-2" for="motherEvangelicalRadios2">
+                                    Não
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-2">
+                            <label for="motherIpdrRadios">Da IPDR?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="motherIpdrRadios" id="fatherIpdrRadios1" value="s">
+                                <label class="form-check-label px-2" for="motherIpdrRadios1">
+                                    Sim
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="motherIpdrRadios" id="motherIpdrRadios2" value="n">
+                                <label class="form-check-label px-2" for="motherIpdrRadios2">
+                                    Não
+                                </label>
+                            </div>
+                        </div>
 
             </div>
             <div class="modal-footer">
-                <div class="alert alert-dismissible fade show" id="alertModal1">
+                <!--<div class="alert alert-dismissible fade show" id="alertModal1">
                     
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                </div>
+                </div>-->
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                 <button type="submit" class="btn btn-primary" id="cadModal1Submit" data-toggle="modal" data-dismiss="" data-target="#cadModal2">
 
