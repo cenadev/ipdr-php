@@ -152,7 +152,7 @@
                         </div>
 
                         <div class="form-group col-md-2">
-                            <label for="motherAliveRadios">Vivo?</label>
+                            <label for="motherAliveRadios">Viva?</label>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="motherAliveRadios" id="motherAliveRadios1" value="s">
                                 <label class="form-check-label px-2" for="motherAliveRadios1">
@@ -168,7 +168,7 @@
                         </div>
                         
                         <div class="form-group col-md-2">
-                            <label for="motherEvangelicalRadios">Evangélico?</label>
+                            <label for="motherEvangelicalRadios">Evangélica?</label>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="motherEvangelicalRadios" id="motherEvangelicalRadios1" value="s">
                                 <label class="form-check-label px-2" for="motherEvangelicalRadios1">
@@ -186,7 +186,7 @@
                         <div class="form-group col-md-2">
                             <label for="motherIpdrRadios">Da IPDR?</label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="motherIpdrRadios" id="fatherIpdrRadios1" value="s">
+                                <input class="form-check-input" type="radio" name="motherIpdrRadios" id="motherIpdrRadios1" value="s">
                                 <label class="form-check-label px-2" for="motherIpdrRadios1">
                                     Sim
                                 </label>
