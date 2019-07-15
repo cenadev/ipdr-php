@@ -10,8 +10,7 @@ class membrosController extends Controller
 
     public function cadastrar()
     {
-        if (isset($_POST['nome'], $_POST['genero'], $_POST['dataNasc'], $_POST['nacionalidade'], $_POST['natalidade'], $_POST['email'], $_POST['identidade'], $_POST['orgaoEmissor'], $_POST['inputCPF'])) {
-            # code...
+        if (isset($_POST['nome'], $_POST['genero'], $_POST['dataNasc'], $_POST['nacionalidade'], $_POST['natalidade'], $_POST['email'], $_POST['identidade'], $_POST['orgaoEmissor'], $_POST['inputCPF'], $_POST['nomePai'], $_POST['paiVivo'], $_POST['paiEvangelico'], $_POST['paiIpdr'], $_POST['nomeMae'], $_POST['maeViva'], $_POST['maeEvangelica'], $_POST['maeIpdr'])) {
             $data = array();
             $data = array(
                 'nome' => $_POST['nome'],
@@ -22,7 +21,15 @@ class membrosController extends Controller
                 'email' => $_POST['email'],
                 'identidade' => $_POST['identidade'],
                 'orgaoEmissor' => $_POST['orgaoEmissor'],
-                'inputCPF' => $_POST['inputCPF']
+                'inputCPF' => $_POST['inputCPF'],
+                'nomePai' => $_POST['nomePai'],
+                'paiVivo' => $_POST['paiVivo'],
+                'paiEvangelico' => $_POST['paiEvangelico'],
+                'paiIpdr' => $_POST['paiIpdr'],
+                'nomeMae' => $_POST['nomeMae'],
+                'maeViva' => $_POST['maeViva'],
+                'maeEvangelica' => $_POST['maeEvangelica'],
+                'maeIpdr' => $_POST['maeIpdr'],
             );
             
             echo json_encode($data);

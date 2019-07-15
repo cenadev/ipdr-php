@@ -93,7 +93,7 @@
                     <div class="form-row">
                     <div class="form-group col-md-6">
                             <label for="inputNameFather">Nome do Pai</label>
-                            <input type="text" class="form-control" id="inputNameFather" placeholder="Nome Completo">
+                            <input type="text" class="form-control" id="inputNameFather" placeholder="Nome do Pai">
                         </div>
 
                         <div class="form-group col-md-2">
@@ -148,7 +148,7 @@
                         <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputNameMother">Nome da Mãe</label>
-                            <input type="text" class="form-control" id="inputNameMother" placeholder="Nome Completo">
+                            <input type="text" class="form-control" id="inputNameMother" placeholder="Nome da Mãe">
                         </div>
 
                         <div class="form-group col-md-2">
