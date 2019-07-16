@@ -450,7 +450,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="">Salvar</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="" data-target="">Salvar</button>
             </div>
         </div>
     </div>
