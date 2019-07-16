@@ -5,13 +5,13 @@ $('#spinnerModal1').hide();
 //$('#')
 $('#cad1Form').submit(function (e) {
     e.preventDefault();
-    $("#cadModal1Submit").html("Salvando"), $("#cadModal1Submit").attr('disabled', ''), $('#spinnerModal1').show();
 
     $.ajax({
         url: "/ipdr-php/membros/cadastrar",
         type: "post",
         dataType: "html",
         data: {
+            'ficha': $("#fichaId").val(),
             'nome': $("#inputName").val(),
             'genero': $("[name='genderRadios']:checked").val(),
             'dataNasc': $("#inputDateOfBirth").val(),
@@ -37,7 +37,7 @@ $('#cad1Form').submit(function (e) {
             console.log(response);
             //alert(msgAlert);
             //$('#alertModal1').html(msgAlert), $('#alertModal1').addClass('alert-success'), $('#alertModal1').show();
-            $('#spinnerModal1').hide(), $("#cadModal1Submit").html("Próximo"), /*$("#cadModal1Submit").attr('type', 'button'),*/ $("#cadModal1Submit").attr('data-dismiss', 'modal'), $("#cadModal1Submit").removeAttr('disabled', '');
+            /*$("#cadModal1Submit").attr('type', 'button'),*/ 
         },
         error: function (err) {
             console.log("Request failed: " + err);

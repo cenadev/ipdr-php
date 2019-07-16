@@ -210,8 +210,7 @@
                 </div>-->
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                 <button type="submit" class="btn btn-primary" data-toggle="modal" data-dismiss="" data-target="#cadModal2" id="cadModal1Submit">
-
-                    Salvar
+                    Próximo
                 </button>
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" id="spinnerModal1"></span>
                 </form>
