@@ -25,7 +25,7 @@
                 <h5 class="text-center pb-3">Ficha 1</h5>
 
                 <form id="cad1Form">
-
+                    <input type="hidden" name="fichaId" id="fichaId" value="ficha1">
                     <div class="form-row">
 
                         <div class="form-group col-md-6">
@@ -91,7 +91,7 @@
                     </div>
 
                     <div class="form-row">
-                    <div class="form-group col-md-6">
+                        <div class="form-group col-md-6">
                             <label for="inputNameFather">Nome do Pai</label>
                             <input type="text" class="form-control" id="inputNameFather" placeholder="Nome do Pai">
                         </div>
@@ -111,7 +111,7 @@
                                 </label>
                             </div>
                         </div>
-                        
+
                         <div class="form-group col-md-2">
                             <label for="fatherEvangelicalRadios">Evangélico?</label>
                             <div class="form-check">
@@ -143,9 +143,9 @@
                                 </label>
                             </div>
                         </div>
-                        </div>
+                    </div>
 
-                        <div class="form-row">
+                    <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputNameMother">Nome da Mãe</label>
                             <input type="text" class="form-control" id="inputNameMother" placeholder="Nome da Mãe">
@@ -166,7 +166,7 @@
                                 </label>
                             </div>
                         </div>
-                        
+
                         <div class="form-group col-md-2">
                             <label for="motherEvangelicalRadios">Evangélica?</label>
                             <div class="form-check">
@@ -198,7 +198,7 @@
                                 </label>
                             </div>
                         </div>
-                        </div>
+                    </div>
 
             </div>
             <div class="modal-footer">
@@ -209,7 +209,7 @@
                     </button>
                 </div>-->
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="submit" class="btn btn-primary" data-toggle="modal" data-dismiss="" data-target="#cadModal2" id="cadModal1Submit" >
+                <button type="submit" class="btn btn-primary" data-toggle="modal" data-dismiss="" data-target="#cadModal2" id="cadModal1Submit">
 
                     Salvar
                 </button>
@@ -235,8 +235,9 @@
             <div class="modal-body">
                 <h5 class="text-center pb-3">Ficha 2</h5>
                 <p class="text-center lead" id="cadModal2Nome">Cleison dos Santos Silva</p>
-                <form>
-                <input type="hidden" name="cadModal2id" id="cadModal2id" value="">
+                <form id="cad2Form">
+                    <input type="hidden" name="fichaId" id="fichaId" value="ficha2">
+                    <input type="hidden" name="cadModal2id" id="cadModal2id" value="">
                     <div class="form-row">
 
                         <div class="form-group col-md-4">
@@ -352,8 +353,9 @@
             <div class="modal-body">
                 <h5 class="text-center pb-3">Ficha 3</h5>
 
-                <form>
-
+                <form id="cad3Form">
+                    <input type="hidden" name="fichaId" id="fichaId" value="ficha3">
+                    <input type="hidden" name="cadModal3id" id="cadModal3id" value="">
                     <div class="form-row">
 
                         <fieldset>
