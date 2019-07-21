@@ -1,14 +1,43 @@
-<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#cadModal">
-    Cadastrar
-</button>
-<button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="cadModal">
-    Alterar
-</button>
-<a href="<?php echo (BASE_URL); ?>/membros/alterar" class="btn btn-outline-danger">Excluir</a>
+<div class="m-3">
+    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#cadModal">
+        Cadastrar
+    </button>
+    <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="cadModal">
+        Alterar
+    </button>
+    <a href="<?php echo (BASE_URL); ?>/membros/alterar" class="btn btn-outline-danger">Excluir</a>
+</div>
 
 <?php
 //lista de membros
 ?>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col"><input class="" type="checkbox" name="selectAll" id="selectAll"></th>
+            <th scope="col">ID</th>
+            <th scope="col">Nome</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td ><input type="checkbox" name="selectAll" id="selectAll"></td>
+            <th scope="col">1</th>
+            <td>Mark</td>
+        </tr>
+        <tr>
+            <td ><input type="checkbox" name="selectAll" id="selectAll"></td>
+            <th scope="col">2</th>
+            <td>Jacob</td>
+        </tr>
+        <tr>
+            <td ><input type="checkbox" name="selectAll" id="selectAll"></td>
+            <th scope="col">3</th>
+            <td>Larry</td>
+        </tr>
+    </tbody>
+</table>
 
 
 <!-- Modal -->
