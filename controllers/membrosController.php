@@ -3,7 +3,9 @@ class membrosController extends Controller
 {
     public function index()
     {
-        $data = array();
+        $membros = new Membros();
+    
+        $data['membros'] = $membros->getMembers();
 
         $this->loadTemplate('membros', 'index', $data);
     }
@@ -35,6 +37,7 @@ class membrosController extends Controller
                     'maeIpdr' => $_POST['maeIpdr'],
                 );
                 //execução da query aqui
+
                 echo json_encode($data);
                 http_response_code(200);
             } else {
