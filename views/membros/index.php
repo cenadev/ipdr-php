@@ -15,7 +15,7 @@
 <table class="table table-striped">
     <thead class="thead-dark">
         <tr>
-            <th scope="col"><input class="" type="checkbox" name="selectAll" id="selectAll"></th>
+            <th scope="col"><input type="checkbox" name="selectAll" id="selectAll"></th>
             <th scope="col">ID</th>
             <th scope="col">Nome</th>
         </tr>
