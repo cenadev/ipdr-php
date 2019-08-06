@@ -1,0 +1,17 @@
+.n {
+    height: 30px;
+    width: 30px;
+    padding: 10px 15px;
+    border: 1px purple solid;
+}
+.n-active {
+    background: purple;
+    color: #fff;
+}
+.f {
+    visibility: hidden;
+    text-decoration: underline;
+}
+.f-active {
+    visibility: visible;
+}
