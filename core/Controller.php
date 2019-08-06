@@ -2,7 +2,7 @@
 class Controller {
     public function loadView($viewName, $viewData = array()){
     
-        extract($viewData);
+        //extract($viewData);
         include 'views/'.$viewName.'.php';
     }
     public function loadTemplate($viewName, $viewData = array()){

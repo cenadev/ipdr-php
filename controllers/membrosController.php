@@ -1,13 +1,20 @@
 <?php
 class membrosController extends Controller
 {
+    public $data;
+
+    public function __construct()
+    {
+        $this->data = array();
+        
+    }
     public function index()
     {
         $membros = new Membros();
     
-        $data['membros'] = $membros->getMembers();
-
-        $this->loadTemplate('membros', 'index', $data);
+        $this->data['membros'] = $membros->getMembers();
+        
+        $this->loadTemplate('membros', $this->data);
     }
 
     public function cadastrar()

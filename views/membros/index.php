@@ -10,6 +10,7 @@
 
 <?php
 //lista de membros
+echo($viewData['membros']);
 ?>
 
 <table class="table table-striped">

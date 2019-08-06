@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="<?php echo (BASE_URL); ?>/assets/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo (BASE_URL); ?>/assets/css/dashboard.css">
+    <link rel="stylesheet" href="<?php echo (BASE_URL); ?>/assets/css/style.css">
 </head>
 
 <body>
@@ -69,7 +70,7 @@
                 </div>
                 <?php
                 //MÉTODO DE CARREGAMENTO DA PÁGINA ATUAL
-                $this->loadViewInTemplate($viewName, $viewData);
+                $this->loadView($viewName, $viewData);
                 ?>
 
 
