@@ -28,26 +28,26 @@
         <div class="sidebar-sticky">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="<?php echo (BASE_URL); ?>/home">
+                    <a class="nav-link" id="nav-link-home" href="<?php echo (BASE_URL); ?>/home">
                         <span data-feather="home"></span>
                         Home <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo (BASE_URL); ?>/membros">
+                    <a class="nav-link" id="nav-link-members" href="<?php echo (BASE_URL); ?>/membros">
                         <span data-feather="file"></span>
                         Membros
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo (BASE_URL); ?>/usuarios">
+                    <a class="nav-link" id="nav-link-users" href="<?php echo (BASE_URL); ?>/usuarios">
                         <span data-feather="shopping-cart"></span>
                         Usuários
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo (BASE_URL); ?>/about">
+                    <a class="nav-link" id="nav-link-about" href="<?php echo (BASE_URL); ?>/about">
                         <span data-feather="layers"></span>
                         Sobre
                     </a>
