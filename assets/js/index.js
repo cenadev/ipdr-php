@@ -1,4 +1,68 @@
+let currentForm = 1;
 
+const verifyCurrentForm = function () {
+    switch (currentForm) {
+        case 1:
+            $('#form1').show(), $('#form2').hide(), $('#form3').hide(), $('#n-2').removeClass('n-active');
+            break;
+        case 2:
+            $('#form1').hide(), $('#form2').show(), $('#form3').hide(), $('#n-2').addClass('n-active'), $('#n-3').removeClass('n-active');
+            break;
+        case 3:
+            $('#form1').hide(), $('#form2').hide(), $('#form3').show(), $('#n-3').addClass('n-active');
+            break;
+        default:
+            console.log("diferente");
+            break;
+    }
+}
+const next = function () {
+    if (currentForm >= 3) {
+        return false;
+    } else {
+        currentForm = currentForm + 1;
+        console.log(currentForm);
+        verifyCurrentForm();
+    }
+}
+const prev = function () {
+    if (currentForm <= 1) {
+        return false;
+    } else {
+    currentForm = currentForm - 1;
+    console.log(currentForm);
+    verifyCurrentForm();
+    }
+}
+
+const chageMenuColor = function () {
+    path = window.location.pathname;
+    path = path.slice(10);
+    switch (path) {
+        case 'home':
+            $('#nav-link-home').addClass('active');
+            break;
+        case 'membros':
+            $('#nav-link-members').addClass('active');
+            break;
+        case 'users':
+            $('#nav-link-users').addClass('active');
+            break;
+        case 'about':
+            $('#nav-link-about').addClass('active');
+            break;
+
+        default:
+            break;
+    }
+}
+
+window.onload = () => {
+    verifyCurrentForm();
+    chageMenuColor();
+};
+
+/*
 let msgAlert = '';
 //$("#alertModal1").hide();
 $('#spinnerModal1').hide();
@@ -29,7 +93,7 @@ $('#cad1Form').submit(function (e) {
             'maeViva': $("[name='motherAliveRadios']:checked").val(),
             'maeEvangelica': $("[name='motherEvangelicalRadios']:checked").val(),
             'maeIpdr': $("[name='motherIpdrRadios']:checked").val(),
-            
+
         },
 
         success: function (response) {
@@ -37,7 +101,7 @@ $('#cad1Form').submit(function (e) {
             console.log(response);
             //alert(msgAlert);
             //$('#alertModal1').html(msgAlert), $('#alertModal1').addClass('alert-success'), $('#alertModal1').show();
-            /*$("#cadModal1Submit").attr('type', 'button'),*/ 
+            /*$("#cadModal1Submit").attr('type', 'button'),
         },
         error: function (err) {
             console.log("Request failed: " + err);
@@ -45,3 +109,4 @@ $('#cad1Form').submit(function (e) {
         }
     });
 });
+*/
