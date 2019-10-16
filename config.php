@@ -10,7 +10,7 @@ if (ENVIRONMENT == "dev") {
     $config['dbname'] = 'db_ipdr';
     $config['host'] = 'localhost';
     $config['dbuser'] = 'root';
-    $config['dbpass'] = 'root';
+    $config['dbpass'] = '';
 } else {
     
     $config['dbname'] = 'cenade29_ipdr';

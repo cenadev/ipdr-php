@@ -1,4 +1,4 @@
-let currentForm = 1;
+/*let currentForm = 1;
 
 const verifyCurrentForm = function () {
     switch (currentForm) {
@@ -17,8 +17,12 @@ const verifyCurrentForm = function () {
     }
 }
 const next = function () {
-    if (currentForm >= 3) {
-        return false;
+    if (currentForm >= 2) {
+        $('#cadModal1Submit').text("Salvar");
+        if (currentForm >= 3) {
+            return false;
+        }
+        
     } else {
         currentForm = currentForm + 1;
         console.log(currentForm);
@@ -61,8 +65,8 @@ window.onload = () => {
     verifyCurrentForm();
     chageMenuColor();
 };
+*/
 
-/*
 let msgAlert = '';
 //$("#alertModal1").hide();
 $('#spinnerModal1').hide();
@@ -75,7 +79,7 @@ $('#cad1Form').submit(function (e) {
         type: "post",
         dataType: "html",
         data: {
-            'ficha': $("#fichaId").val(),
+            
             'nome': $("#inputName").val(),
             'genero': $("[name='genderRadios']:checked").val(),
             'dataNasc': $("#inputDateOfBirth").val(),
@@ -99,9 +103,9 @@ $('#cad1Form').submit(function (e) {
         success: function (response) {
             msgAlert = 'Cadastro realizado com sucesso!';
             console.log(response);
-            //alert(msgAlert);
-            //$('#alertModal1').html(msgAlert), $('#alertModal1').addClass('alert-success'), $('#alertModal1').show();
-            /*$("#cadModal1Submit").attr('type', 'button'),
+            alert(msgAlert);
+            $('#alertModal1').html(msgAlert), $('#alertModal1').addClass('alert-success'), $('#alertModal1').show();
+            $("#cadModal1Submit").attr('type', 'button')
         },
         error: function (err) {
             console.log("Request failed: " + err);
@@ -109,4 +113,3 @@ $('#cad1Form').submit(function (e) {
         }
     });
 });
-*/

@@ -45,18 +45,18 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalScrollableTitle">Cadastrar Membro</h5>
-                <h5 class="text-left ">
+                <!--<h5 class="text-left ">
                     <span id="f-1" class="f">Ficha</span> <span class="n n-active" id="n-1">1</span> <span id="f-2" class="f">Ficha</span> <span class="n" id="n-2">2</span> <span id="f-3" class="f">Ficha</span> <span class="n" id="n-3">3</span>
-                    <button type="button" class="close m-0 px-2 py-0" data-dismiss="modal" aria-label="Close">
+                    
+                </h5>-->
+                <button type="button" class="close m-0 px-2 py-0" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                </h5>
-                
             </div>
             <div class="modal-body">
 
                 <form id="cad1Form" class="m-0">
-                    <div id="form1">
+                
                         <h5 class="text-center">Ficha 1</h5>
                         <input type="hidden" name="fichaId" id="fichaId" value="ficha1">
                         <div class="form-row">
@@ -233,8 +233,8 @@
                             </div>
                         </div>
 
-                    </div>
-                    <div id="form2">
+                    
+                    
                         <h5 class="text-center">Ficha 2</h5>
                         <div class="form-row">
 
@@ -325,8 +325,8 @@
                             </div>
 
                         </fieldset>
-                    </div>
-                    <div id="form3">
+                    
+                    
                         <h5 class="text-center">Ficha 3</h5>
                         <div class="form-row">
 
@@ -376,59 +376,21 @@
 
 
 
-                        <div class="form-row">
-
-                            <div class="form-group col-md-4">
-                                <label for="inputDateOfBirth">Data de Nascimento</label>
-                                <input type="date" class="form-control" id="inputDateOfBirth">
-                            </div>
-
-
-                        </div>
-
-                        <div class="form-row">
-
-                            <div class="form-group col-md-4">
-                                <label for="inputNationality">Nacionalidade</label>
-                                <input type="text" class="form-control" id="inputNationality">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputNatality">Natalidade</label>
-                                <input type="text" class="form-control" id="inputNatality">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="inputEmail">
-                            </div>
-
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group col-md-4">
-                                <label for="inputRG">Identidade</label>
-                                <input type="text" class="form-control" id="inputRG">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputShippingAgent">Orgão Expedidor</label>
-                                <input type="text" class="form-control" id="inputShippingAgent">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputCPF">CPF</label>
-                                <input type="text" class="form-control" id="inputCPF">
-                            </div>
-                        </div>
-                    </div>
+                        
+                    
                     <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-secondary" id="cadModalPrev" onclick="$('#cadModal').modal('hide')">Fechar</button>
+                    <button type="submit" class="btn btn-primary" id="cadModal1Submit" >Cadastrar</button>
                         <!--<div class="alert alert-dismissible fade show" id="alertModal1">
                     
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                </div>-->
+                </div>
                         <button type="button" class="btn btn-secondary" id="cadModalPrev" onclick="prev()" >Voltar</button>
                         <button type="button" class="btn btn-primary" id="cadModal1Submit" onclick="next()">
                             Próximo
-                        </button>
+                        </button>-->
                         <!--<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" id="spinnerModal1"></span>-->
                 </form>
             </div>

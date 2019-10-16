@@ -19,10 +19,7 @@ class membrosController extends Controller
 
     public function cadastrar()
     {
-        if ($_POST['ficha'] == 'ficha1') {
-            # code...
-
-            if (isset($_POST['nome'], $_POST['genero'], $_POST['dataNasc'], $_POST['nacionalidade'], $_POST['natalidade'], $_POST['email'], $_POST['identidade'], $_POST['orgaoEmissor'], $_POST['inputCPF'], $_POST['nomePai'], $_POST['paiVivo'], $_POST['paiEvangelico'], $_POST['paiIpdr'], $_POST['nomeMae'], $_POST['maeViva'], $_POST['maeEvangelica'], $_POST['maeIpdr'])) {
+        if (isset($_POST['nome'], $_POST['genero'], $_POST['dataNasc'], $_POST['nacionalidade'], $_POST['natalidade'], $_POST['email'], $_POST['identidade'], $_POST['orgaoEmissor'], $_POST['inputCPF'], $_POST['nomePai'], $_POST['paiVivo'], $_POST['paiEvangelico'], $_POST['paiIpdr'], $_POST['nomeMae'], $_POST['maeViva'], $_POST['maeEvangelica'], $_POST['maeIpdr'])) {
                 $data = array();
                 $data = array(
                     'nome' => $_POST['nome'],
@@ -50,10 +47,6 @@ class membrosController extends Controller
             } else {
                 http_response_code(500);
             }
-        } else{
-            echo 'erro',($_POST['ficha']);
-        }
-
     }
     public function alterar()
     {
