@@ -104,8 +104,7 @@ $('#cad1Form').submit(function (e) {
             msgAlert = 'Cadastro realizado com sucesso!';
             console.log(response);
             alert(msgAlert);
-            $('#alertModal1').html(msgAlert), $('#alertModal1').addClass('alert-success'), $('#alertModal1').show();
-            $("#cadModal1Submit").attr('type', 'button')
+            window.location.href = "/ipdr-php/membros";
         },
         error: function (err) {
             console.log("Request failed: " + err);
